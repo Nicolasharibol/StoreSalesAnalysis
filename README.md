@@ -89,5 +89,4 @@ Overall, this analysis shows how data helps align people, products, and business
 ## Thank You for Visiting!
 
 Thank you for taking the time to explore this project! Your interest and feedback are greatly appreciated. 🌟
-
 If you have any questions or suggestions, feel free to reach out. Let's connect and collaborate! 🤝
