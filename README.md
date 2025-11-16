@@ -24,7 +24,7 @@ The dataset consisted of 988 rows and 23 columns. I focused on the following key
 
 The data was saved into Excel for easier exploration and then imported into Python.
 
-## Exploratory Data Analysis
+## **Exploratory Data Analysis**
 
 ### Occurrences of Each Item
 
