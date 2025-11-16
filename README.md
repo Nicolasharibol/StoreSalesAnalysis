@@ -1,6 +1,6 @@
 # 📊 Retail Sales Analysis — September 2025
 
-## Data Analytics Project (Python, Pandas, Excel)
+## Data Analytics Project (Python, Pandas, Tableau, Excel)
 
 ### Project Introduction
 
