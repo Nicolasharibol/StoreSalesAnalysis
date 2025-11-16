@@ -29,7 +29,7 @@ The dataset consisted of 988 rows and 23 columns. I focused on the following key
 
 The data was saved into Excel for easier exploration and then imported into Python.
 
-## Exploratory Data Analysis
+### Exploratory Data Analysis
 
 ### Occurrences of Each Item
 
@@ -83,7 +83,7 @@ top_20_items_value_netto['Total Net Value'] = (
 
 ![net_value](net_value.png)
 
-## Conclusion
+### Conclusion
 
 Sales data analysis plays a key role in supporting retail business strategies. It reveals trends, highlights best-selling products, and helps teams understand customer preferences. This guides communication, marketing, and in-store engagement.
 
