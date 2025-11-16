@@ -16,7 +16,6 @@ The goal of this project was to produce a monthly sales report and uncover trend
 The dataset consisted of 988 rows and 23 columns. I focused on the following key fields:
 
 • Item — product name
-
 • Quantity — number of units sold per transaction
 
 • Discount % — discount percentage applied
