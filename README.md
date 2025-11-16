@@ -86,4 +86,8 @@ In this example, the analysis shows a particularly strong performance in product
 
 Overall, this analysis shows how data helps align people, products, and business goals—supporting a more informed, responsive, and value-driven retail experience.
 
-Thank you.
+## Thank You for Visiting!
+
+Thank you for taking the time to explore this project! Your interest and feedback are greatly appreciated. 🌟
+
+If you have any questions or suggestions, feel free to reach out. Let's connect and collaborate! 🤝
