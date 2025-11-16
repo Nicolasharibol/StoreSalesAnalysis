@@ -30,7 +30,7 @@ The data was saved into Excel for easier exploration and then imported into Pyth
 
 Some items appear multiple times in different transactions. To measure this, I created an Occurrences column:
 
-df['Occurrences'] = df.groupby('Item')['Item'].transform('size')
+**df['Occurrences'] = df.groupby('Item')['Item'].transform('size')**
 
 Explanation: Groups the data by item name and counts how many times each item appears.
 
@@ -41,7 +41,7 @@ Explanation: Groups the data by item name and counts how many times each item ap
 
 Occurrences alone are not enough, so I added a Total Quantity column:
 
-df['Total Quantity'] = df.groupby('Item')['Quantity'].transform('sum')
+**df['Total Quantity'] = df.groupby('Item')['Quantity'].transform('sum')**
 
 Explanation: Sums all quantities for each item and assigns the total to each row in that group.
 
@@ -57,28 +57,28 @@ I grouped the data by item, summed the quantities, sorted results, and selected 
 
 To calculate net revenue per item, I created a new column:
 
-df = df.assign(IndividualTotalValue=lambda x: x['Quantity'] * x['Price unit netto including VAT'])
+**df = df.assign(IndividualTotalValue=lambda x: x['Quantity'] * x['Price unit netto including VAT'])**
 
 Then aggregated by item:
 
-top_20_items_value_netto = (
+**top_20_items_value_netto = (
     df.groupby('Item', as_index=False)
       .agg({'Quantity': 'sum', 'IndividualTotalValue': 'sum'})
       .rename(columns={'IndividualTotalValue': 'Total Net Value'})
       .sort_values(by='Total Net Value', ascending=False)
       .head(20)
-)
+)**
 
 Finally, formatted currency:
 
-top_20_items_value_netto['Total Net Value'] = (
+**top_20_items_value_netto['Total Net Value'] = (
     top_20_items_value_netto['Total Net Value']
     .apply(lambda x: f'€{x:,.2f}')
-)
+)**
 
 ![net_value](net_value.png)
 
-### Conclusion
+## Conclusion
 
 Sales data analysis plays a key role in supporting retail business strategies. It reveals trends, highlights best-selling products, and helps teams understand customer preferences. This guides communication, marketing, and in-store engagement.
 
