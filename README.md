@@ -38,3 +38,5 @@ Some items appear multiple times in different transactions. To measure this, I c
 df['Occurrences'] = df.groupby('Item')['Item'].transform('size')
 
 Explanation: Groups the data by item name and counts how many times each item appears.
+
+![Occurrences](Occurrences.jpg)
