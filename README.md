@@ -15,12 +15,12 @@ The goal of this project was to produce a monthly sales report and uncover trend
 
 The dataset consisted of 988 rows and 23 columns. I focused on the following key fields:
 
-• Item — product name
-• Quantity — number of units sold per transaction
-• Discount % — discount percentage applied
-• Price Unit Including VAT — standard unit price
-• Total discount — monetary discount value applied
-• Net price unit including VAT — final amount paid by the customer
+- **Item** — product name  
+- **Quantity** — number of units sold per transaction  
+- **Discount %** — discount percentage applied  
+- **Price Unit Including VAT** — standard unit price  
+- **Total discount** — monetary discount value applied  
+- **Net price unit including VAT** — final amount paid by the customer  
 
 The data was saved into Excel for easier exploration and then imported into Python.
 
