@@ -16,13 +16,11 @@ This project analyzes retail sales data from a Berlin store (September 2025). Th
 
   💶 Net sales value
 
-• Data-driven insights for:
+### Data-driven insights for:
 
-  • In-store storytelling
-
-  • Strategic marketing
-
-  • Customer-focused decisions
+- **In-store storytelling** – Present engaging product stories and trends directly in the store.  
+- **Strategic marketing** – Inform promotions, campaigns, and product focus.  
+- **Customer-focused decisions** – Guide choices that enhance the customer experience.
 
 ## 📊 Data & Methods
 
