@@ -4,10 +4,7 @@
 
 ## 📌 Overview
 
-This project analyzes anonymized retail sales data from a Berlin store (September 2025).
-The dataset was adapted into a generic format for public sharing, while keeping its real structure and analytical value intact.
-
-The analysis focuses on identifying the store’s top-performing products, uncovering trends, and demonstrating a workflow that can scale to multi-store or larger datasets.
+This project analyzes retail sales data from a Berlin store (September 2025). The dataset has been fully anonymized for public use while keeping its structure and realistic characteristics intact. The analysis demonstrates key insights and trends, and the workflow is designed to scale to larger datasets, multiple stores, or longer time periods.
 
 ## 🎯 Objectives
 
@@ -19,7 +16,7 @@ The analysis focuses on identifying the store’s top-performing products, uncov
 
   💶 Net sales value
 
-• Surface insights that support:
+• Data-driven insights for:
 
   • In-store storytelling
 
