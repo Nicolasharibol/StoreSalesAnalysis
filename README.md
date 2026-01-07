@@ -27,13 +27,13 @@ This project analyzes retail sales data from a Berlin store (September 2025). Th
 
 - **Dataset:** 988 rows × 23 columns (filtered to essential sales fields)  
 
-- **Key variables analyzed:**  
-  - **Item**  
-  - **Quantity**  
-  - **Discount %**  
-  - **Price incl. VAT**  
-  - **Total discount**  
-  - **Net price incl. VAT**  
+- **Key variables analyzed:** 
+  - Item
+  - Quantity  
+  - Discount %  
+  - Price incl. VAT  
+  - Total discount  
+  - Net price incl. VAT  
 
 - **Additional calculated metrics:**  
   - Occurrences per item  
